@@ -1,0 +1,14 @@
+{
+  "name": "ranking-redis",
+  "version": "1.0.0",
+  "description": "API de ranking (leaderboard) con Redis: sorted sets y rate limiting. Proyecto de practica.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "redis": "^4.7.1"
+  }
+}
